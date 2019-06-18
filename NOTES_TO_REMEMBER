@@ -1,0 +1,16 @@
+Erica everytime you put files in this folder,
+
+git add . #To add the files to tracker
+git commit -m "Changed X file"
+git push   # Push the changes to the repository
+
+
+If it complains save all of this on another folder of your computer
+mkdir bootcamp2
+cp bootcamp/* ../bootcamp2
+rm -R bootcamp 
+
+# Re-download the folder
+git clone <INSERT_ REPO_NAME>
+
+cp ../bootcamp2/<FILE CHANGED> . 
